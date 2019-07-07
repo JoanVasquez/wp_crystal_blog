@@ -1,0 +1,188 @@
+/*
+Theme Name: Blog Tutorial
+Theme URI: https://github.com/JoanVasquez/blog_tutorial
+Author: Joan Vasquez
+Author URI: https://vasquezportfolio-25eb2.firebaseapp.com/
+Description: A very beautiful template for a tutorial blog about computer programming and more.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blogtutorial
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fafafa;
+  font-size: 1rem;
+  font-family: 'Open Sans', 'Lato', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato';
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*MAIN NAVBAR*/
+#navbar-top .navbar-nav li > a {
+  text-transform: capitalize;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dropdown-menu li a {
+  color: #868e96;
+}
+
+li.active > a {
+  color: #000 !important;
+}
+
+#navbar-top .navbar-nav li > a:hover {
+  color: #000 !important;
+}
+
+/*HEADER IMG*/
+.header-img {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(11, 72, 107, 0.7)),
+      to(rgba(245, 98, 23, 0.7))
+    ),
+    url(https://cdn-blob-prd.azureedge.net/prd-pws/images/default-source/default-album/high-school-students.jpg?sfvrsn=9498bf7c_2*);
+  background-image: linear-gradient(
+      to right,
+      rgba(11, 72, 107, 0.7),
+      rgba(245, 98, 23, 0.7)
+    ),
+    url(https://cdn-blob-prd.azureedge.net/prd-pws/images/default-source/default-album/high-school-students.jpg?sfvrsn=9498bf7c_2*);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#sub-header-title {
+  text-shadow: 0px 0px 6px rgba(150, 150, 150, 0.4);
+}
+
+/*SECTION USERS INDEX*/
+#section-users-index {
+  background: #141e30; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#243b55),
+    to(#141e30)
+  );
+  background: linear-gradient(
+    to left,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-top-left-radius: 25px;
+}
+
+/*SECTION TECHNOLOGY*/
+#section-technology {
+  background: #3a7bd5; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3a6073),
+    to(#3a7bd5)
+  );
+  background: linear-gradient(
+    to right,
+    #3a6073,
+    #3a7bd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section-technology img {
+  opacity: 0.7;
+}
+
+/*FOOTER*/
+.social-network-footer {
+  list-style: none;
+}
+
+.social-network-footer li {
+  display: inline-block;
+}
+
+#pagination {
+  list-style: none;
+}
+
+#pagination li {
+  display: inline-block;
+}
+
+.page-numbers {
+  padding: 1rem !important;
+}
+
+#facebook {
+  color: #3b5998;
+}
+
+#whatsapp {
+  color: #25d366;
+}
+
+.widget {
+  padding: 15px;
+}
+
+.widget:after {
+  margin-top: 10px;
+  display: block;
+  height: 2px;
+  background-color: #bdc3c7;
+  content: ' ';
+}
+
+.widget ul {
+  list-style: none;
+}
+
+.tag-cloud-link {
+  font-size: 1rem !important;
+  color: #868e96 !important;
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+
+ul.children {
+  margin-left: 60px;
+}
+
+.comment-reply-title {
+  color: #25d366 !important;
+  text-transform: capitalize;
+}
+
+.comment-reply-title a {
+  text-decoration: none !important;
+}
